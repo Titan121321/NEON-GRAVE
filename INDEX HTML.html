@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <style>
+    @font-face {
+      font-family: 'Minecraft';
+      src: url('game assets\Minecraft.ttf') format('truetype');
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: green;
+      font-family: 'Minecraft', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .title-card {
+      font-size: 100px;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 18px;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .music {
+      font-size: 16px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .disclaimer-box {
+      border: 2px solid red;
+      color: red;
+      padding: 10px;
+      margin-bottom: 40px;
+      font-size: 14px;
+      background-color: transparent;
+    }
+
+    .play-button {
+      padding: 10px 30px;
+      font-size: 20px;
+      font-family: 'Minecraft', monospace;
+      color: green;
+      background-color: black;
+      border: 2px solid green;
+      cursor: pointer;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .play-button:hover {
+      background-color: green;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title-card">NEON GRAVE</div>
+    <div class="description">
+      Hello this is a weird little game we made. This is a mix of cyberpunk and Russian roulette, if that even makes sense. <br>
+      You can see for yourself.
+    </div>
+    <div class="music">
+      <strong>Music:</strong><br>
+      House of tinctures - Atrium Carceri<br>
+      Laudanum - Atrium Carceri
+    </div>
+    <div class="disclaimer-box">
+      DISCLAIMER : THIS IS A TEXT BASED GAME. READ SLOWLY TO GET THE FULL EXPERIENCE
+    </div>
+    <button class="play-button">PLAY</button>
+  </div>
+</body>
+</html>
