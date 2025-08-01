@@ -1,24 +1,24 @@
 # [Neon Grave]
 ##[Team Name]: Superhumans
 
-**Team Members:**
-	Harikrishnan V
-	Anandu Ajay
+**Team Members:**<br>
+	-Harikrishnan V<br>
+	-Anandu Ajay
 
-**Project Description:**
+**Project Description:**<br>
 
-Its a text based games that tries to simulate a Russian roulette game while being all philosophical. The sci-fi stuff is just the icing on the cake.
+-Its a text based games that tries to simulate a Russian roulette game while being all philosophical. The sci-fi stuff is just the icing on the cake.
 
-**The Problem:**
-"What does it mean to be human."
+**The Problem:**<br>
+-"What does it mean to be human."
 
-**The Solution:**
-To put yourself in extreme hypothetical scenarios to find clarity.
+**The Solution:**<br>
+-To put yourself in extreme hypothetical scenarios to find clarity.
 
-**Technology used:**
-HTML,CSS and Js
+**Technology used:**<br>
+-HTML,CSS and Js
 
-**Implementation:**
+**Implementation:**<br>
 
 **Screen shots:**
 ![WhatsApp Image 2025-08-02 at 02 20 34_2e43a1b8](https://github.com/user-attachments/assets/d62fc526-f4a4-4158-bbf5-f64b7151c589)
