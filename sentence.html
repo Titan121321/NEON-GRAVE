@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Fate</title>
+  <link rel="stylesheet" href="sentence style.css" />
+</head>
+<body>
+
+    <audio id="bg-music" autoplay loop>
+  <source src="game assets/Laudanum.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+  <video autoplay muted loop id="bg-video">
+    <source src="game assets/bg.mp4" type="video/mp4" />
+  </video>
+
+  <div class="main-box">
+    <div class="left-side">
+      <video autoplay muted loop class="inner-video" id="leftVideo">
+        <source src="game assets/overwatch.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="right-side">
+      <p id="story-text">Loading...</p>
+      <div class="button-group">
+        <button id="option-a" style="display:none;">yes</button>
+        <button id="option-b" style="display:none;">no</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="sentence script.js"></script>
+</body>
+</html>
