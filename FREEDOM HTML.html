@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Scene</title>
+  <link rel="stylesheet" href="FREEDOM CSS.css">
+
+  <!-- Minecraft Font -->
+  <style>
+    @font-face {
+      font-family: 'Minecraft';
+      src: url('game assets\Minecraft.ttf') format('truetype');
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="game assets\bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Top-Center Rectangle with GIF -->
+  <div class="gif-container">
+    <img src="game assets\ending screen.gif" alt="GIF">
+  </div>
+
+  <!-- Bottom Message Box -->
+  <div class="message-box">
+    <p id="message">Loading...</p>
+    <button id="next-btn">NEXT</button>
+  </div>
+
+  <script src="FREEDOM JAVA.js"></script>
+</body>
+</html>
+

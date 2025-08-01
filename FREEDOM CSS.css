@@ -1,0 +1,91 @@
+﻿@import url('https://fonts.cdnfonts.com/css/minecraftia');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Minecraftia', sans-serif;
+  overflow: hidden;
+}
+
+/* Background Video */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* GIF Rectangle Container */
+.gif-container {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 550px;
+  height: 450px;
+  background: transparent;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gif-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Message Box (below gif) */
+.message-box {
+  position: absolute;
+  top: calc(5% + 450px + 30px); /* below gif + margin */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 550px;
+  background-color: rgba(0, 0, 0, 0.7); /* translucent black */
+  color: #ffffff; /* white text */
+  padding: 25px 60px 50px 25px; /* space for text and button */
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 1.6;
+  box-shadow: 0 0 10px #000;
+  position: relative;
+}
+
+
+/* Message Text */
+#message {
+  margin: 0;
+  word-wrap: break-word;
+}
+
+/* Next Arrow Button */
+#next-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #1c1c1c; /* greyish-black */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', monospace;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+#next-btn:hover {
+  background-color: #333; /* slightly lighter on hover */
+  transform: scale(1.05);
+}
