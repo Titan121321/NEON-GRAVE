@@ -3,7 +3,7 @@
 
 **Team Members:**<br>
 	-Harikrishnan V<br>
-	-Anandu Ajai
+	-Anandu Ajay
 
 **Project Description:**<br>
 

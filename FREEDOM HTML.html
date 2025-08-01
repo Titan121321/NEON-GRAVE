@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Freedom Interface</title>
-  <link rel="stylesheet" href="FREEDOM CSS.css" />
+  <meta charset="UTF-8">
+  <title>Game Scene</title>
+  <link rel="stylesheet" href="FREEDOM CSS.css">
+
+  <!-- Minecraft Font -->
+  <style>
+    @font-face {
+      font-family: 'Minecraft';
+      src: url('game assets\Minecraft.ttf') format('truetype');
+    }
+  </style>
 </head>
 <body>
-  <video autoplay muted loop id="background-video">
-    <source src="game assets\bg.mp4" type="video/mp4" />
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="game assets\bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 
-  <div class="center-box">
-    <video id="mainVideo" width="550" height="450" autoplay muted loop>
-    <source src="game assets\guardian yellow.mp4" type="video/mp4" />
-    </video>
-    <img id="mainGif" src="game assets\ending screen.gif" style="display: none;" width="550" height="450" />
+  <!-- Top-Center Rectangle with GIF -->
+  <div class="gif-container">
+    <img src="game assets\ending screen.gif" alt="GIF">
   </div>
 
-  <div class="textbox">
-    <p id="dialogueText"></p>
-    <button id="nextBtn">NEXT</button>
+  <!-- Bottom Message Box -->
+  <div class="message-box">
+    <p id="message">Loading...</p>
+    <button id="next-btn">NEXT</button>
   </div>
 
   <script src="FREEDOM JAVA.js"></script>
 </body>
 </html>
+

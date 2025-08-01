@@ -8,6 +8,6 @@ document.getElementById('nextBtn').addEventListener('click', () => {
 });
 
 document.getElementById('welcomeBtn').addEventListener('click', () => {
-  alert("You have chosen oblivion.");
-  // Optional: window.location.href = 'nextpage.html';
+  window.location.href = "end.html";
 });
+

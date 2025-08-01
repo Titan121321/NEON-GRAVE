@@ -11,7 +11,6 @@ const storyLines = [
   "Do you wish to know the rules of the game?",             // 9 → show yes/no again
   "Soon you will be handed a virus. It may or may not have the power to delete an engram from existence.", // 10a
   "You can either use it on yourself or your enemy (someone in the same position as you). In both cases it has a 50 percent chance to be lethal. If you survive you earn your freedom.", // 11b
-  "End of intro..."                                          // 12 → placeholder
 ];
 
 let index = 0;
@@ -51,6 +50,13 @@ function updateText() {
     return;
   }
 
+  // Line 11 → redirect after a short delay
+  if (index === 11) {
+    setTimeout(() => {
+      window.open("game.html", "_blank");
+    }); // 3 seconds delay to let player read the final message
+  }
+
   // Default state
   optionA.style.display = 'none';
   optionB.style.display = 'none';
@@ -78,7 +84,7 @@ optionB.addEventListener('click', () => {
   if (index === 7) {
     index = 8; // Refused — show denial/punishment line
   } else if (index === 9) {
-    window.location.href = "gameover.html";
+    window.open("game.html", "_blank");
     return;
   }
   updateText();
