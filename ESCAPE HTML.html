@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Interface</title>
+  <link rel="stylesheet" href="ESCAPE CSS.css">
+</head>
+<body>
+  <video autoplay loop muted playsinline id="background-video">
+    <source src="game assets\bg.mp4" type="video/mp4">
+  </video>
+
+  <div class="main-rectangle">
+    <div class="gif-container" id="gif-container">
+      <img src="game assets\question.gif" id="gif" alt="GIF">
+    </div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div class="popup-rectangle">
+      <img src="game assets\opponent dead.jpg" alt="Popup Image" class="popup-image">
+      <a href="FREEDOM HTML.html" class="escape-button">ESCAPE</a>
+
+    </div>
+  </div>
+
+  <audio id="audio" src="game assets\trimmed.mp3"></audio>
+
+  <script src="ESCAPE JAVA.js"></script>
+</body>
+</html>
