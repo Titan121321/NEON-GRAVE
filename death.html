@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome Death</title>
+  <link rel="stylesheet" href="death style.css" />
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="game assets/bg.mp4" type="video/mp4" />
+  </video>
+
+  <!-- Audio tag (starts on next button click) -->
+  <audio id="loop-audio" loop>
+    <source src="game assets/bloop.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="vertical-box">
+    <img src="game assets/death.gif" alt="Death GIF" class="death-gif" />
+
+    <p class="quote hidden">“And you, my father, there on the sad height,<br>
+      Curse, bless, me now with your fierce tears, I pray.<br>
+      Do not go gentle into that good night.<br>
+      Rage, rage against the dying of the light”
+    </p>
+
+    <button id="nextBtn" class="action-btn"><span>next</span></button>
+<button id="welcomeBtn" class="action-btn hidden">welcome death</button>
+
+  </div>
+
+  <script src="death script.js"></script>
+</body>
+</html>
